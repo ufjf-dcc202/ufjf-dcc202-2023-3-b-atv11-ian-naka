@@ -4,14 +4,14 @@ function getLista(){
     return lista;
 }
 
-function adicionarNaLista(item){
+function adicionaNaLista(item){
     lista.push(item);
 }
 function removeDaLista(posicao){
     lista.splice(posicao, 1);
 }
-function limparLista(){
+function limpaLista(){
     lista.splice(0);
 }
 
-export {getLista, adicionarNaLista, removeDaLista, limparLista};
+export {getLista, adicionaNaLista, removeDaLista, limpaLista};
